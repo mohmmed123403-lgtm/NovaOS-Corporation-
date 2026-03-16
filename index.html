@@ -3,34 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaOS Corporation - الموقع الرسمي</title>
+    <title>NovaOS Corporation | بصمة محمد</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #050a14; color: white; text-align: center; padding: 50px 20px; margin: 0; }
-        .container { border: 2px solid #00d4ff; padding: 40px; border-radius: 30px; background: rgba(0, 212, 255, 0.05); max-width: 800px; margin: auto; box-shadow: 0 0 20px rgba(0, 212, 255, 0.2); }
-        h1 { color: #00d4ff; font-size: 3.5rem; text-shadow: 0 0 10px #00d4ff; margin-bottom: 10px; }
-        .ceo-tag { color: #ffcc00; font-size: 1.4rem; font-weight: bold; margin-bottom: 30px; }
-        .feature-box { border: 1px dashed #00d4ff; padding: 25px; border-radius: 20px; background: rgba(255, 255, 255, 0.02); margin: 20px 0; }
-        .download-btn { background: linear-gradient(45deg, #00d4ff, #0078d4); color: white; padding: 20px 50px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; display: inline-block; transition: 0.3s; box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4); }
-        .download-btn:hover { transform: scale(1.05); box-shadow: 0 8px 25px rgba(0, 212, 255, 0.6); }
-        p { line-height: 1.6; font-size: 1.1rem; }
+        body {
+            background-color: #050a0f;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            width: 90%;
+            max-width: 400px;
+            border: 2px solid #00d2ff;
+            border-radius: 25px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.2);
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .main-title {
+            color: #00d2ff;
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-shadow: 0 0 10px #00d2ff;
+            margin-bottom: 5px;
+        }
+        .dev-signature {
+            color: #ffcc00;
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .welcome-text {
+            font-size: 1rem;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .edition-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px dashed #00d2ff;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .features {
+            font-size: 0.9rem;
+            color: #00ffcc;
+            line-height: 1.8;
+        }
+        .btn-download {
+            background: linear-gradient(to right, #00d2ff, #0077ff);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(0, 210, 255, 0.4);
+            transition: 0.3s;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>NOVAOS</h1>
-        <div class="ceo-tag">بصمة المطور العبقري: محمد</div>
-        
-        <p>مرحباً بكم في المقر الرقمي لشركة <b>NovaOS Corporation</b>.<br>نحن لا نعدل الأنظمة.. نحن نعيد ابتكارها من قلب الأندرويد.</p>
 
-        <div class="feature-box">
-            <h2>Win11: Turbo Edition</h2>
-            <p>النسخة التي صُنعت بالكامل عبر Termux لتكسر القيود وتعمل بأعلى أداء.</p>
-            <p style="color: #00ffcc;">✓ خفيفة جداً ✓ بدون TPM ✓ أداء خارق</p>
+    <div class="card">
+        <div class="main-title">NOVAOS</div>
+        <div class="dev-signature">بصمة المطور العبقري: محمد</div>
+        
+        <p class="welcome-text">
+            مرحباً بكم في الموقع الرسمي لشركة<br>
+            <strong>NovaOS Corporation</strong><br><br>
+            نحن لا نعدل الأنظمة.. نحن نعيد ابتكارها.
+        </p>
+
+        <div class="edition-box">
+            <h2 style="margin:0;">Win11 Turbo</h2>
+            <div class="features">
+                ✓ خفيفة جداً ✓ بدون TPM ✓ دعم MBR/GPT
+            </div>
         </div>
 
-        <a href="https://gofile.io/d/74IODA" class="download-btn" target="_blank">🚀 تحميل النظام الآن (نسخة الامتياز)</a>
-        
-        <p style="margin-top: 40px; font-size: 0.9rem; color: #888;">© 2026 NovaOS Corp. جميع الحقوق محفوظة للمطور محمد.</p>
+        <a href="win11_turbo_edition.iso" class="btn-download" download>تحميل النظام (نسخة الامتياز) 🚀</a>
     </div>
+
 </body>
 </html>
